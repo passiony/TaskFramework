@@ -93,13 +93,12 @@ TaskIds：可跳转的任务id数组，与Talk，Touch的Option选项长度相�
 ```
 #### 类型描述
 |  Key | 类型 |  参数列表  | 描述  |
-| ------------ | --------- | ------------ |
-| Talk | 对话 | {uiname,point,#cmds}| 对话类，界面类 等UI展示  |
+| -----| ----- | ----- | ----- |
+| Panel | 对话 | {uiname,point,#cmds}| 对话类，界面类 等UI展示  |
 | Touch | 点击 | {type(or,and,sync),items[],#cmds} | 拾取，触摸，点击，射线 等类型  |
 | Hilight | 高亮 | {enable,items[],width,color} | 3D物体的外轮廓高亮  |
 | Teleport | 传送点 | {type[l,t,s],Id} | VR传送点，位置传送，出发，场景切换  |
 | Audio | 声音 | {type[e,a,m],id,loop} | 播放背景音乐，音效等，或者指定人物说话  |
-| OpenUI | 界面UI | {ui,point,type,args} | 除对话类界面外，其他UI展示  |
 | Object | 对象函数 | {objects[],#cmds} | 场景Object执行特定函数命令  |
 
 
@@ -123,7 +122,7 @@ TaskConfig：任务流程配置
 ExamConfig：考试试题配置（可选）
 Game Config：游戏通用配置（可选）
 
-扩展任务配置命名：TaskConfig+ProjectId+TaskId
+扩展任务配置命名：TaskConfig + ProjectId + TaskId
 
 ## 六.场景管理
 SceneManager统一管理场景跳转，每个场景必须有一个对应的Scene类，继承BaseScene
@@ -148,7 +147,6 @@ SysTalkPanel：系统提示面板
 AlertPanel：警告面板
 MenuPanel：菜单选择面板
 ExamPanel：试题考试面板
-SelectBoardPanel：警示牌选择
 SelectToolPanel：工具选择
 
 ## 八.Command命令
@@ -192,9 +190,6 @@ public enum ECommand : byte
 	// 角色指令
     LoadEquip,          //手穿戴装备
     UnLoadEquip,        //卸载装备
-    Talk,               //交谈
-    Dress,              //穿戴上
-    UnDress,            //脱掉
 }
 ```
 
