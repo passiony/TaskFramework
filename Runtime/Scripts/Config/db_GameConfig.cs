@@ -1,0 +1,1 @@
+using System;using UnityEngine;/// <summary>/// this class file is auto generate by tools, don't modify it/// </summary>public class db_GameConfig :IConfig {	public static string configName = "db_GameConfig";	public string version { get; set; }	public string value { get; set; }	 }

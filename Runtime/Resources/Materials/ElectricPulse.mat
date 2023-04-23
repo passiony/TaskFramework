@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ElectricPulse
+  m_Shader: {fileID: 4800000, guid: 0b6ae9d7174be374b8482d0a1f4e9647, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 356eb54186163b74fa535bf2dd9ad72a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Power: 5.23
+    - _Width: 2.67
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 0.37517434, g: 1.4461265, b: 1.4032412, a: 0}
+    - _Speed1: {r: 0.2, g: 0.5, b: 0, a: 0}
+    - _Speed2: {r: 0.1, g: -0.5, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}

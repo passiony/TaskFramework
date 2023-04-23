@@ -1,0 +1,1 @@
+using System;using UnityEngine;/// <summary>/// this class file is auto generate by tools, don't modify it/// </summary>public class db_AudioConfig :IConfig {	public static string configName = "db_AudioConfig";	public string version { get; set; }	public string name { get; set; }	public string desc { get; set; }	 }
